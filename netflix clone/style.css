@@ -221,6 +221,7 @@ nav button {
     display: flex;
     margin: 10px auto;
 }
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -228,35 +229,41 @@ nav button {
     width: 60vw;
     padding: 10px 259px;
 }
-.question{
+
+.question {
     height: 30px;
     color: white;
     padding: 27px 262px
-
 }
-.footer-item{
+
+.footer-item {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 .footer-item a {
     color: white;
 }
+
 .lastbtn button {
     border: 1px solid white;
     border-radius: 5px;
 }
-.lastbtn{
+
+.lastbtn {
     padding: 0px 0px 0px 65px;
     height: 60px;
 }
-.end{
+
+.end {
     color: white;
     margin: auto;
-    padding:  0px 36px 70px 260px;
+    padding: 0px 36px 70px 260px;
     font-size: 12px;
 }
- @media screen and (max-width: 1500px) {
+
+@media screen and (max-width: 1500px) {
 
     nav {
         max-width: 90vw;
@@ -264,25 +271,20 @@ nav button {
 
     .first {
         flex-wrap: wrap;
-        
+
     }
 
-    .secImg img {
-        width: 305px;
-    }
     .main {
         height: 628px;
         background-image: url(assests/images/bg.jpg);
         position: relative;
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: max(1530px, 100vw); 
+        background-size: max(1530px, 100vw);
         width: max-content;
-    
+
     }
-    .sam{
-        display: none;
-    }
+
 }
 
 @media screen and (max-width: 1500px) {
@@ -292,5 +294,5 @@ nav button {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
- 
-} 
+
+}
