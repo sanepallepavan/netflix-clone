@@ -145,16 +145,21 @@ nav button {
     position: relative;
 }
 
+.secImg {
+    position: relative;
+}
+
 .secImg img {
-    width: 35vw;
+    width: 555px;
     position: relative;
     z-index: 10;
 }
 
 .secImg video {
     position: absolute;
-    top: 86px;
-    right: 4px;
+    top: 51px;
+    right: 0;
+    width: 555px;
 }
 
 .first>div :nth-child(1) {
